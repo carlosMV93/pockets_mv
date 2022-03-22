@@ -58,5 +58,10 @@
             <ref bean="swaggerResourceJSON"/>
         </jaxrs:serviceBeans>
     </jaxrs:server>
+    <!-- componente utils -->
+    <bean class="com.bbva.pzic.routine.utils.ComponentConfiguration" >
+        <constructor-arg  value="classpath:com/bbva/pzic/pockets/business/application.properties"/>
+    </bean>
+    <bean class="com.bbva.pzic.routine.utils.ActiveCryptoChecker" />
 
 </beans>

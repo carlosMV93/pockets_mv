@@ -12,6 +12,9 @@ public class InputCreatePocketLiquidate {
 
     @Size(max = 23, groups = {ValidationGroup.CreatePocketLiquidate.class})
     private String pocketId;
+    //campo sesionado
+    private String customerId;
+
 
     public String getPocketId() {
         return pocketId;
@@ -21,4 +24,11 @@ public class InputCreatePocketLiquidate {
         this.pocketId = pocketId;
     }
 
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
 }

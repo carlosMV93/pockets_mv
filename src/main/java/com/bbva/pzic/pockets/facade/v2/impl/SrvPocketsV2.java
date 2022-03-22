@@ -311,20 +311,20 @@ public class SrvPocketsV2 implements ISrvPocketsV2, com.bbva.jee.arq.spring.core
     @POST
     @Path("/pockets/{pocket-id}/liquidate")
     @Consumes(MediaType.APPLICATION_JSON)
-    @SMC(registryID = SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE, logicalID = "createPocketLiquidate", forcedCatalog = "asoCatalog")
+    @SMC(registryID = "SMCPE1810348", logicalID = "createPocketLiquidate", forcedCatalog = "asoCatalog")
     public ServiceResponse<Liquidate> createPocketLiquidate(@PathParam(POCKET_ID) final String pocketId) {
         LOG.info("----- Invoking service createPocketLiquidate -----");
 
         Map<String, Object> pathParams = new HashMap<>();
         pathParams.put(POCKET_ID, pocketId);
 
-        inputDataProcessingExecutor.perform(SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE, null, pathParams, null);
+       // inputDataProcessingExecutor.perform(SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE, null, pathParams, null);
 
         ServiceResponse<Liquidate> liquidateData = createPocketLiquidateMapper.mapOut(
                 srvIntPockets.createPocketLiquidate(
                         createPocketLiquidateMapper.mapIn((String) pathParams.get(POCKET_ID))));
 
-        outputDataProcessingExecutor.perform(SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE, liquidateData, pathParams, null);
+        // outputDataProcessingExecutor.perform(SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE, liquidateData, pathParams, null);
 
         return liquidateData;
     }

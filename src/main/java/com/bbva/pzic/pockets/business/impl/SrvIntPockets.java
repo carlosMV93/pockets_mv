@@ -4,6 +4,7 @@ import com.bbva.pzic.pockets.business.ISrvIntPockets;
 import com.bbva.pzic.pockets.business.dto.*;
 import com.bbva.pzic.pockets.canonic.*;
 import com.bbva.pzic.pockets.dao.IPocketsDAO;
+import com.bbva.pzic.pockets.util.FieldCryptoOperations;
 import com.bbva.pzic.routine.validator.Validator;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -25,7 +26,8 @@ public class SrvIntPockets implements ISrvIntPockets {
     private IPocketsDAO pocketsDAO;
     @Autowired
     private Validator validator;
-
+    @Autowired
+    private FieldCryptoOperations fieldCryptoOperations;
     /**
      * {@inheritDoc}
      */
@@ -107,6 +109,9 @@ public class SrvIntPockets implements ISrvIntPockets {
     @Override
     public Liquidate createPocketLiquidate(final InputCreatePocketLiquidate input) {
         LOG.info("... Invoking method SrvIntPockets.createPocketLiquidate ...");
+        if (input.getPocketId() != null) {
+            fieldCryptoOperations.encryptInputCreatePocketLiquidate(input);
+        }
         validator.validate(input, ValidationGroup.CreatePocketLiquidate.class);
         return pocketsDAO.createPocketLiquidate(input);
     }

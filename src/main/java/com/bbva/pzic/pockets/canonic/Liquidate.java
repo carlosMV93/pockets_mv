@@ -16,6 +16,7 @@ import java.util.Calendar;
 public class Liquidate implements Serializable {
 
     private static final long serialVersionUID = 1L;
+
     /**
      * Number of the operation, when the pocket is eliminated.
      */
@@ -54,5 +55,13 @@ public class Liquidate implements Serializable {
 
     public void setCurrentAmount(Import currentAmount) {
         this.currentAmount = currentAmount;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
     }
 }

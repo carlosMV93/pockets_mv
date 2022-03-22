@@ -1,6 +1,7 @@
 package com.bbva.pzic.pockets.facade.v2.mapper.impl;
 
 import com.bbva.jee.arq.spring.core.catalog.gabi.ServiceResponse;
+import com.bbva.jee.arq.spring.core.servicing.context.ServiceInvocationContext;
 import com.bbva.pzic.pockets.business.dto.InputCreatePocketLiquidate;
 import com.bbva.pzic.pockets.canonic.Liquidate;
 import com.bbva.pzic.pockets.facade.RegistryIds;
@@ -24,7 +25,15 @@ public class CreatePocketLiquidateMapper implements ICreatePocketLiquidateMapper
     @Autowired
     private AbstractCypherTool cypherTool;
 
-	/**
+    //obtener de contexto
+    private ServiceInvocationContext serviceInvocationContext;
+
+    @Autowired
+    public void setServiceInvocationContext(ServiceInvocationContext serviceInvocationContext) {
+        this.serviceInvocationContext = serviceInvocationContext;
+    }
+
+    /**
 	 * {@inheritDoc}
 	 */
 	@Override
@@ -32,6 +41,9 @@ public class CreatePocketLiquidateMapper implements ICreatePocketLiquidateMapper
 		LOG.info("... called method CreatePocketLiquidateMapper.mapIn ...");
 		LOG.debug(String.format("Pocket id recibido = %s", pocketId));
 		InputCreatePocketLiquidate input = new InputCreatePocketLiquidate();
+        //campo sesionado
+        input.setCustomerId(serviceInvocationContext.getProperty("ASTAMxClientId"));
+        //
 		input.setPocketId(cypherTool.decrypt(pocketId, AbstractCypherTool.POCKET_ID, RegistryIds.SMC_REGISTRY_ID_OF_CREATE_POCKET_LIQUIDATE));
 		return input;
 	}

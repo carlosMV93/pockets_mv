@@ -18,6 +18,8 @@ import java.util.List;
 public final class EntityMock {
 
     public static final String TSEC_MNET = "TDQxODg4ODc3OjEzMDAwMDEx";
+    //constante id_mock
+    public static final String ASTA_MX_CLIENT_ID_MOCK = "ABCD";
 
     public static final String POCKET_ID_CYPHER = "NDg2MjMxMjY4ODc0MzQ2NT";
     public static final String POCKET_ID_ORIGINAL = "12512345678901234567843";
