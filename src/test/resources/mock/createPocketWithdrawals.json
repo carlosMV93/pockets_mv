@@ -1,0 +1,9 @@
+{
+  "pocketId": "D",
+  "withdrawal": {
+    "withdrawalAmount": {
+      "amount": 567.99,
+      "currency": "MXN"
+    }
+  }
+}

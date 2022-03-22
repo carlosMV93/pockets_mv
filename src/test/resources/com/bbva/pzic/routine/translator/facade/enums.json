@@ -1,0 +1,22 @@
+{
+ "pocket.period.frequencyId.frontend.MONTHLY" : "M",
+ "pocket.statusId.frontend.CREATED" : "A",
+
+ "pocket.period.frequencyId.backend.M" : "MONTHLY",
+ "pocket.status.id.backend.A" : "CREATED",
+ "pocket.status.id.backend.C" : "CLOSED",
+ "pocket.status.id.backend.P" : "ACTIVE",
+ "pocket.status.id.backend.Q" : "INACTIVE",
+ "pocket.statusId.backend.A" : "CREATED",
+ "pocket.period.frequencyId.backend.Q" : "FORTNIGHTLY",
+ "pocket.period.frequencyId.backend.B" : "BIMONTHLY",
+ "pocket.period.frequency.id.backend.FORTNIGHTLY" : "FORTNIGHTLY",
+ "pocket.product.productType.id.backend.A" : "ACCOUNTS",
+ "pocket.balances.id.backend.CURRENT_AMOUNT" : "CURRENT_AMOUNT",
+ "pocket.balances.id.backend.CURRENT_PERCENTAGE" : "CURRENT_PERCENTAGE",
+ "pocket.balances.mode.backend.AMOUNT" : "AMOUNT",
+ "pocket.balances.mode.backend.PERCENTAGE" : "PERCENTAGE",
+ "operation.operationType.id.backend.CONTRIBUTION" : "CONTRIBUTION",
+ "operation.origin.numberType.id.backend.L" : "LIC",
+ "operation.origin.product.id.backend.P" : "POCKETS"
+}

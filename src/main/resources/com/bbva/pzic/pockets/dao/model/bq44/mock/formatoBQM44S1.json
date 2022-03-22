@@ -1,0 +1,22 @@
+[
+  {
+    "numope": "1",
+    "detmov": "CREDITO AL POCKET - VIAJE PARIS",
+    "fechmov": "2017-04-20",
+    "tipope": "CREDIT",
+    "destipo": "Credit transaction",
+    "monmov": "20.00",
+    "moneda": "USD"
+  },
+  {
+    "numope": "2",
+    "detmov": "DEBITO AL POCKET - VIAJE CUZCO",
+    "fechmov": "2017-05-15",
+    "tipope": "DEBIT",
+    "destipo": "Debito transaction",
+    "monmov": "15.00",
+    "moneda": "USD"
+  },
+  {
+  }
+]

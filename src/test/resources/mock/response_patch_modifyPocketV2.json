@@ -1,0 +1,28 @@
+[
+  {
+    "id": "234567893456789034567890",
+    "alias": "Honda City Car 2009",
+    "goalAmount": {
+      "amount": 125200.99,
+      "currency": "MXN"
+    },
+    "expirationDate": "2019-01-06",
+    "priority": "001",
+    "category": {
+      "id": "1"
+    },
+    "isScheduled": true,
+    "scheduledDeposit": {
+      "depositAmount": {
+        "amount": 5267.78,
+        "currency": "MXN"
+      },
+      "period": {
+        "dayOfMonth": 10,
+        "frequency": {
+          "id": "MONTHLY"
+        }
+      }
+    }
+  }
+]

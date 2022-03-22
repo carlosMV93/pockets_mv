@@ -1,0 +1,33 @@
+[
+  {
+    "id": "4567893456789034567",
+    "additionalInformation": "CREDITO AL POCKET - VIAJE PARIS",
+    "operationAmount": {
+      "amount": 3344,
+      "currency": "MXN"
+    },
+    "operationNumber": "000367517982",
+    "operationDate": "2018-08-25",
+    "operationType": {
+      "id": "CONTRIBUTION",
+      "name": "Contribution"
+    },
+    "origin": {
+      "id": "1",
+      "number": "0011-0117-0201078373",
+      "numberType": {
+        "id": "SIMPLE_ACCOUNT",
+        "name": "Simple account"
+      },
+      "product": {
+        "id": "POCKETS",
+        "name": "Pockets"
+      },
+      "relationType": {
+        "id": "PAYING_ACCOUNT",
+        "name": "Paying account"
+      },
+      "establishmentName": "BBVA Market"
+    }
+  }
+]

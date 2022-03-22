@@ -1,0 +1,22 @@
+{
+  "pocket": "00110241029996285000001",
+  "nompoc": "VIAJE PARIS",
+  "nomcor": "VP",
+  "fechpoc": "2018-01-01",
+  "pripoc": 1,
+  "flapoc": "S",
+  "impaut": 100.00,
+  "monimp": "USD",
+  "peraut": "M",
+  "desperi": "Monthly period.",
+  "diaauto": "15",
+  "numcuen": "001102410299962850",
+  "monpoc": 1000.00,
+  "moneda": "USD",
+  "ahopoc": 200.00,
+  "monaho": "USD",
+  "tippoc": 1,
+  "destipo": "VIAJE",
+  "estpoc": "A",
+  "desest": "Created status."
+}

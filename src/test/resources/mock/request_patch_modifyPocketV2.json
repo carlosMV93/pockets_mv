@@ -1,0 +1,28 @@
+[
+  {
+    "id": "NDg2MjMxMjY4ODc0MzQ2NT",
+    "alias": "Alien Ware Computer 4",
+    "goalAmount": {
+      "amount": 12200.99,
+      "currency": "MXN"
+    },
+    "expirationDate": "2019-01-06",
+    "priority": "002",
+    "category": {
+      "id": "001"
+    },
+    "isScheduled": true,
+    "scheduledDeposit": {
+      "depositAmount": {
+        "amount": 5267.78,
+        "currency": "MXN"
+      },
+      "period": {
+        "dayOfMonth": 10,
+        "frequency": {
+          "id": "MONTHLY"
+        }
+      }
+    }
+  }
+]

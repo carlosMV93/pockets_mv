@@ -1,0 +1,29 @@
+[
+  {
+    "idpoc": "00110241029996285000001",
+    "nomcor": "VP",
+    "fechpoc": "2018-01-01",
+    "pripoc": 1,
+    "numcuen": "001102410299962850",
+    "monpoc": 1000.00,
+    "moneda": "USD",
+    "ahopoc": 200.00,
+    "monaho": "USD",
+    "estpoc": "A",
+    "desest": "Created status."
+  },
+  {
+    "idpoc": "99110241029996285000001",
+    "nomcor": "PV",
+    "fechpoc": "2020-12-31",
+    "pripoc": 1,
+    "numcuen": "991102410299962850",
+    "monpoc": 1234.89,
+    "moneda": "PEN",
+    "ahopoc": 123.98,
+    "monaho": "PEN",
+    "estpoc": "B",
+    "desest": "Deleted status."
+  },
+  {}
+]

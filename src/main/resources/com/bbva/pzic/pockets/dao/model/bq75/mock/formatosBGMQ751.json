@@ -1,0 +1,39 @@
+[
+  {
+    "numeope": 1111111,
+    "detmovi": "CREDITO AL POCKET - VIAJE PARIS",
+    "mtomovi": 3344,
+    "divmovi": "MXN",
+    "fchmovi": "2018-08-25",
+    "tipoper": "CONTRIBUTION",
+    "destipo": "Contribution",
+    "idepock": "1",
+    "numecta": "0011-0117-0201078373",
+    "idetico": "L",
+    "destico": "LIC",
+    "ideprre": "P",
+    "desprre": "Pockets",
+    "reltyid": "PAYING_ACCOUNT",
+    "relname": "Paying account",
+    "nomesta": "BBVA Market"
+  },
+  {
+    "numeope": 2222222,
+    "detmovi": "CREDITO AL POCKET - VIAJE CUZCO",
+    "mtomovi": 2233,
+    "divmovi": "MXN",
+    "fchmovi": "2018-07-13",
+    "tipoper": "CONTRIBUTION",
+    "destipo": "Contribution",
+    "idepock": "2",
+    "numecta": "0011-0117-020104232",
+    "idetico": "L",
+    "ideprre": "P",
+    "reltyid": "PAYING_ACCOUNT",
+    "nomesta": "BBVA Market"
+  },
+  {
+    "numeope": 0,
+    "mtomovi": 0
+  }
+]

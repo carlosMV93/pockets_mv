@@ -1,0 +1,27 @@
+{
+  "name": "VIAJE PARIS",
+  "shortName": "VP",
+  "goalDate": "2018-01-01",
+  "isAutomaticAmount": true,
+  "automaticAmount": {
+    "value": 100.00,
+    "currency": "USD",
+    "period": {
+      "id": "MONTHLY"
+    },
+    "dayMonth": "04"
+  },
+  "accountPocket": {
+    "number": "001102410299962850",
+    "accountFamily": {
+      "id": "SAVINGS"
+    }
+  },
+  "goalAmount": {
+    "value": 1000.00,
+    "currency": "USD"
+  },
+  "pocketType": {
+    "id": 1
+  }
+}

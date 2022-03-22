@@ -1,0 +1,9 @@
+{
+  "operationType": {
+    "id": "CREDIT"
+  },
+  "amount": {
+    "value": 15.30,
+    "currency": "USD"
+  }
+}

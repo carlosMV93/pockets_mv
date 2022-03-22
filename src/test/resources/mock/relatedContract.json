@@ -1,0 +1,15 @@
+{
+  "number": "001101170201078373",
+  "product": {
+    "id": "PO",
+    "productType": {
+      "id": "ACCOUNTS"
+    },
+    "numberType": {
+      "id": "LIC"
+    }
+  },
+  "relationType": {
+    "id": "PAYING_ACCOUNT"
+  }
+}

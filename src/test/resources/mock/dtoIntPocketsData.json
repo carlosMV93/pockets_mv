@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "00110241029996285000001",
+      "shortName": "VP",
+      "goalDate": "2018-01-01",
+      "priority": 1,
+      "accountPocket": {
+        "number": "001102410299962850",
+        "accountFamily": {
+          "id": "SAVINGS"
+        }
+      },
+      "goalAmount": {
+        "value": 1000.00,
+        "currency": "USD"
+      },
+      "currentAmount": {
+        "value": 200.00,
+        "currency": "USD"
+      },
+      "status": {
+        "id": "CREATED",
+        "name": "Created status."
+      }
+    },
+    {
+      "id": "99110241029996285000001",
+      "shortName": "PV",
+      "goalDate": "2020-12-31",
+      "priority": 1,
+      "accountPocket": {
+        "number": "991102410299962850",
+        "accountFamily": {
+          "id": "SAVINGS"
+        }
+      },
+      "goalAmount": {
+        "value": 9876.00,
+        "currency": "PEN"
+      },
+      "currentAmount": {
+        "value": 321.00,
+        "currency": "PEN"
+      },
+      "status": {
+        "id": "DELETED",
+        "name": "Deleted status."
+      }
+    },
+    {}
+  ]
+}

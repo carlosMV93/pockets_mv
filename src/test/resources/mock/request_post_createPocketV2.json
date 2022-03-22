@@ -1,0 +1,27 @@
+{
+  "relatedContract": {
+    "number": "00110241029996285012"
+  },
+  "category": {
+    "id": "1"
+  },
+  "alias": "Honda City Car 2009",
+  "goalAmount": {
+    "amount": 125200.99,
+    "currency": "MXN"
+  },
+  "expirationDate": "2019-01-06",
+  "isScheduled": true,
+  "scheduledDeposit": {
+    "depositAmount": {
+      "amount": 5267.78,
+      "currency": "MXN"
+    },
+    "period": {
+      "dayOfMonth": 10,
+      "frequency": {
+        "id": "MONTHLY"
+      }
+    }
+  }
+}
